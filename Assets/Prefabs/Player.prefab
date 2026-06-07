@@ -150,10 +150,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6d62f29589feeb47a2b617ea3351092, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 4
-  jumpForce: 6
-  gravity: -4.62
-  cameraPlayer: {fileID: 5632508663987925893}
+  moveSpeed: 3.5
+  jumpHeight: 2
+  gravity: -1.62
+  groundLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  groundCheckDistance: 1.08
+  coyoteTime: 0.012
+  jumpBufferTime: 0.015
+  isDead: 0
 --- !u!1 &2101961275670819249
 GameObject:
   m_ObjectHideFlags: 0
